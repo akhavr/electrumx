@@ -4,7 +4,7 @@
 FROM ubuntu:20.04
 
 WORKDIR /
-ADD https://github.com/akhavr/electrumx/archive/1.16.0.1.tar.gz /
+ADD https://github.com/akhavr/electrumx/archive/1.16.0.2.tar.gz /
 RUN tar zxvf *.tar.gz
 
 RUN apt-get update && \
